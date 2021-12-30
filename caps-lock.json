@@ -1,29 +1,31 @@
-"title": "Caps-Lock to ESC on tap, CTRL on hold.",
-"rules": [
+{
+  "title": "Caps-Lock to ESC on tap, CTRL on hold.",
+  "rules": [
     {
     "description": "Makes Caps-Lock behave like CTRL upon holding, ESC upon tap.",
     "manipulators": [
-        {
-            "from": {
-                "key_code": "caps_lock"
-                "modifiers": {
-                    "optional": [
-                        "any"
-                    ]
-                }
-            },
-            "to": [
-                {
-                    "key_code": "left_control"
-                }
-            ],
-            "to_if_alone": [
-                {
-                    "key_code": "escape",
-                }
-            ],
-            "type": "basic"
+      {
+      "from": {
+        "key_code": "caps_lock"
+        "modifiers": {
+          "optional": [
+            "any"
+          ]
         }
+      },
+      "to": [
+        {
+        "key_code": "left_control"
+      }
+      ],
+      "to_if_alone": [
+        {
+        "key_code": "escape",
+      }
+      ],
+      "type": "basic"
+    }
     ]
   }
-]
+  ]
+}
