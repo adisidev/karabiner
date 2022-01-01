@@ -1,24 +1,24 @@
 {
-  "title": "Spacebar to right_command upon hold, space upon hold",
+  "title": "Tab to right_command upon hold, tab upon tap",
   "rules": [
     {
-    "description": "Makes spacebar behave like right_command upon holding, space upon tap.",
+    "description": "Makes tab behave like left_control upon holding, tab upon tap.",
     "manipulators": [
       {
       "from": {
-        "key_code": "spacebar",
+        "key_code": "tab",
         "modifiers": {
           "optional": [
             "any"
           ]
         }
       },
-      "to": [
+      "to_if_alone": [
         {
-        "key_code": "spacebar"
+        "key_code": "tab"
       }
       ],
-      "to_if_held_down": [
+      "to": [
         {
         "key_code": "left_control"
       }
