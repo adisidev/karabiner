@@ -10,7 +10,8 @@ karabiner://karabiner/assets/complex_modifications/import?url=
 
 Thus, the four linkes become:
 
-[spacebar.json](karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/adisidev/karabiner/main/spacebar.json)
+spacebar.json
+`karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/adisidev/karabiner/main/spacebar.json)`
 
 [caps-lock.json](karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/adisidev/karabiner/main/caps-lock.json)
 
