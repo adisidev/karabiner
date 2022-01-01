@@ -2,7 +2,7 @@
   "title": "Vi Mode",
   "rules": [
     {
-    "description": "h, j, k, l, w, a, i; with right_command (or space, with spacebar.json)",
+    "description": "h, j, k, l, w, a, i; with right_command (or caps-lock, with caps-lock.json)",
     "manipulators": [
       {
       "from": {
